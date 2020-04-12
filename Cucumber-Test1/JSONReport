@@ -1,0 +1,235 @@
+[
+  {
+    "line": 24,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-31T05:43:58.650Z",
+        "line": 36,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10052000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user on login page",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters valid \"test\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.cts.steps.StepsToExecute.user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2695000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 779000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User lands on Welcome page4",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_lands_on_Welcome_page4()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-31T05:44:12.479Z",
+        "line": 37,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8241000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user on login page",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters valid \"test2\" and \"test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"test2\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cts.steps.StepsToExecute.user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2156000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User lands on Welcome page4",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_lands_on_Welcome_page4()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-31T05:44:23.810Z",
+        "line": 38,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7928000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user on login page",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters valid \"test3\" and \"test3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test3\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"test3\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cts.steps.StepsToExecute.user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2144000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User lands on Welcome page4",
+            "match": {
+              "location": "com.cts.steps.StepsToExecute.user_lands_on_Welcome_page4()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login1"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:NewToursAppFeatures/Login.feature",
+    "tags": []
+  }
+]
