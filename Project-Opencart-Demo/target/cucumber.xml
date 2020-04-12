@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="120.967633">
+<testcase classname="Title of your feature" name="To check with valid credentails" time="29.401585">
+<system-out><![CDATA[Given the user launch the chrome application................................passed
+When the user creates a new account.........................................passed
+Then the user enters "priyankamule0@gmail.com" and "priya123@" and clicks...passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="search the product" time="20.425704">
+<system-out><![CDATA[Given the user launch chrome application....................................passed
+When click on the search button select the product..........................passed
+And close the website.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="search for the special offers" time="20.126696">
+<system-out><![CDATA[Given user launches the chrome application..................................passed
+When the user click on the sitemap..........................................passed
+And select special offers...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="go to wishlist and add to cart" time="25.559164">
+<system-out><![CDATA[Given user launch the chrome application....................................passed
+Then user login using username and password.................................passed
+Then go to wishlist.........................................................passed
+And add the product to cart.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="edit account details" time="25.454484">
+<system-out><![CDATA[Given user launch the chrome app............................................passed
+When user login using un and pw.............................................passed
+And click on edit your accont details.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
