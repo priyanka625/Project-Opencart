@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty", "html:reports/cucumber-html-report",
 				"json:reports/cucumber-html-report/jsonreport",
 		"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html"}, 
-		//tags = {"@tc02_search"},
+		tags = {"@tc02_search"},
 		glue = {"com.cts.Stepdefinition"}
 		
 		
